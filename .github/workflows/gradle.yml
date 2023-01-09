@@ -20,6 +20,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    environment: sign_test
 
     steps:
     - uses: actions/checkout@v3
