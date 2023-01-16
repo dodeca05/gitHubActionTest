@@ -36,5 +36,5 @@ jobs:
     - name: Bash test
       run: echo test
     - name: Bash test2
-      run: ls -al
+      run: ls -al build
     
