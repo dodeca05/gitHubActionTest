@@ -45,7 +45,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: before build ls
-      run: ls
+      run: ls -al
     - name: Build with Gradle
       uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
       with:
@@ -53,5 +53,5 @@ jobs:
     - name: Bash test
       run: echo test
     - name: Bash test2
-      run: ls 
+      run: ls -al
     
