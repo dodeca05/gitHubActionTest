@@ -53,5 +53,5 @@ jobs:
     - name: move dir
       run: cd build/libs
     - name: Bash test2
-      run: ls -al | ls -al build
+      run: ls -al build/libs
     
